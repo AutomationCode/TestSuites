@@ -19,6 +19,7 @@ public class AdditionTests {
     {
         int x = calc.Add(3, 2);
         System.out.println(x);
+        Assert.assertFalse("Testing a fail assertion", true);
     }
 
     @Category(Nightly.class)

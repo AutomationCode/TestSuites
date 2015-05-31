@@ -1,3 +1,5 @@
+import Categories.Nightly;
+import Categories.Smoke;
 import org.junit.*;
 import org.junit.experimental.categories.Category;
 
@@ -11,7 +13,7 @@ public class AdditionTests {
         calc = new Calc();
     }
 
-    //@Category("Fast")
+    @Category(Smoke.class)
     @Test
     public void SmallNums()
     {
@@ -19,6 +21,7 @@ public class AdditionTests {
         System.out.println(x);
     }
 
+    @Category(Nightly.class)
     @Test
      public void LargeNums()
     {

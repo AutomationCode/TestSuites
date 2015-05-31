@@ -1,4 +1,7 @@
+import Categories.Nightly;
+import Categories.Smoke;
 import org.junit.*;
+import org.junit.experimental.categories.Category;
 
 public class SubtractTests {
 
@@ -9,6 +12,7 @@ public class SubtractTests {
         calc2 = new Calc();
     }
 
+    @Category(Nightly.class)
     @Test
     public void SmallOnes()
     {
@@ -16,6 +20,7 @@ public class SubtractTests {
         System.out.println(p);
     }
 
+    @Category(Smoke.class)
     @Test
     public void BigOnes()
     {

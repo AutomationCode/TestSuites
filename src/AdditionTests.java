@@ -28,6 +28,7 @@ public class AdditionTests {
     {
         int y = calc.Subtract(52, 34);
         System.out.println(y);
+        Assert.assertTrue("Incorrect calc", y == 17);
     }
 
     @Test

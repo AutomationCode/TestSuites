@@ -20,9 +20,17 @@ public class AdditionTests {
     }
 
     @Test
-    public void LargeNums()
+     public void LargeNums()
     {
         int y = calc.Subtract(52, 34);
+        System.out.println(y);
+    }
+
+    @Ignore
+    @Test
+    public void FooNums()
+    {
+        int y = calc.Subtract(5, 8);
         System.out.println(y);
     }
 

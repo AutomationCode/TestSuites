@@ -26,7 +26,6 @@ public class AdditionTests {
         System.out.println(y);
     }
 
-    @Ignore
     @Test
     public void FooNums()
     {

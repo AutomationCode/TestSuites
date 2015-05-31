@@ -31,6 +31,7 @@ public class AdditionTests {
         Assert.assertTrue("Incorrect calc", y == 17);
     }
 
+    @Category(Nightly.class)
     @Test
     public void FooNums()
     {

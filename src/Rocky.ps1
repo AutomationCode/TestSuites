@@ -1,0 +1,1 @@
+copy-item c:\temp\rocky.txt c:\temp\foo
